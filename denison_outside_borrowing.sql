@@ -22,5 +22,5 @@ WHERE
 	checkout.loanrule_code_num IN (100, 101, 102, 103, 108, 109, 110, 111, 112, 272, 273, 274, 276, 277, 284, 285, 297, 298, 299, 300) AND
 	checkout.ptype BETWEEN 0 AND 12
 ORDER BY
-	checkout.checkout_gmt DESC
+	"Call Number" ASC
 LIMIT 5000;
